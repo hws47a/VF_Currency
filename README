@@ -1,0 +1,2 @@
+This module rounds all prices on frontend to integer value.
+For example, you have the price $304,53. After module installation, you will see on frontend $305.
