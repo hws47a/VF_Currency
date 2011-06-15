@@ -3,8 +3,6 @@
 /**
  * Oggetto extension for Magento
  *
- * Long description of this file (if any...)
- *
  * NOTICE OF LICENSE
  *
  * This source file is subject to the Open Software License (OSL 3.0)
@@ -33,16 +31,12 @@
                     <currency>Oggetto_Currency_Model_Directory_Currency</currency>
                 </rewrite>
             </directory>
+            <core>
+                <rewrite>
+                    <locale>Oggetto_Currency_Model_Core_Locale</locale>
+                </rewrite>
+            </core>
         </models>
     </global>
-    <frontend>
-        <layout>
-            <updates>
-                <oggetto_currency>
-                    <file>currency.xml</file>
-                </oggetto_currency>
-            </updates>
-        </layout>
-    </frontend>
 </config>
 

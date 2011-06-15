@@ -25,9 +25,7 @@
  */
 
 /**
- * Short description of the class
- *
- * Long description of the class (if any...)
+ * Currency Model
  *
  * @category   Oggetto
  * @package    Oggetto_Currency
@@ -36,17 +34,18 @@
  */
 class Oggetto_Currency_Model_Directory_Currency extends Mage_Directory_Model_Currency
 {
+    const PRECISION = 0;
     /**
      * Format price to currency format
      *
      * @param   double $price
-     * @param array $options
+     * @param   array $options
      * @param   bool $includeContainer
-     * @param bool $addBrackets
+     * @param   bool $addBrackets
      * @return  string
      */
     public function format($price, $options = array(), $includeContainer = true, $addBrackets = false)
     {
-        return $this->formatPrecision($price, 0, $options, $includeContainer, $addBrackets);
+        return $this->formatPrecision($price, self::PRECISION, $options, $includeContainer, $addBrackets);
     }
 }
