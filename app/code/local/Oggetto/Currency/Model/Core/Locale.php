@@ -46,7 +46,7 @@ class Oggetto_Currency_Model_Core_Locale extends Mage_Core_Model_Locale
         $symbols = Zend_Locale_Data::getList($this->getLocaleCode(), 'symbols');
 
         $pos = strpos($format, ';');
-        if ($pos !== false){
+        if ($pos !== false) {
             $format = substr($format, 0, $pos);
         }
         $format = preg_replace("/[^0\#\.,]/", "", $format);
@@ -62,10 +62,10 @@ class Oggetto_Currency_Model_Core_Locale extends Mage_Core_Model_Locale
         $totalPrecision = Oggetto_Currency_Model_Directory_Currency::PRECISION;
 
         $requiredPrecision = $totalPrecision;
-        $t = substr($format, $decimalPoint);
-        $pos = strpos($t, '#');
-        if ($pos !== false){
-            $requiredPrecision = strlen($t) - $pos - $totalPrecision;
+        $temp = substr($format, $decimalPoint);
+        $pos = strpos($temp, '#');
+        if ($pos !== false) {
+            $requiredPrecision = strlen($temp) - $pos - $totalPrecision;
         }
         $group = 0;
         if (strrpos($format, ',') !== false) {
