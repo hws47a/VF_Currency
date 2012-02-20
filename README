@@ -3,3 +3,6 @@ For example, you have the price $304,53. After module installation, you will see
 
 You can change rounding precision in one constant: Oggetto_Currency_Model_Directory_Currency::PRECISION
 Default is 0
+
+Also format has been changed.
+Instead of $20 now u will see <span class="currency">$</span><span class="value">20</span>
