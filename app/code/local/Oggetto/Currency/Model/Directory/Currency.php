@@ -44,9 +44,7 @@ class Oggetto_Currency_Model_Directory_Currency extends Mage_Directory_Model_Cur
      */
     public function format($price, $options = array(), $includeContainer = true, $addBrackets = false)
     {
-        if ($includeContainer) {
-            $options['format'] = '<span class="currency">¤</span><span class="value">#,##0.00</span>';
-        }
+        $options['format'] = '<span class="currency">¤</span><span class="value">#,##0.00</span>';
         return $this->formatPrecision($price, self::PRECISION, $options, $includeContainer, $addBrackets);
     }
 }
