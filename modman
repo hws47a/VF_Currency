@@ -2,3 +2,4 @@ app/code/local/Oggetto/Currency/Model/Core/Locale.php app/code/local/Oggetto/Cur
 app/code/local/Oggetto/Currency/Model/Directory/Currency.php app/code/local/Oggetto/Currency/Model/Directory/Currency.php
 app/code/local/Oggetto/Currency/etc/config.xml app/code/local/Oggetto/Currency/etc/config.xml
 app/etc/modules/Oggetto_Currency.xml app/etc/modules/Oggetto_Currency.xml
+app/code/local/Oggetto/Currency/Test/Model/Currency.php app/code/local/Oggetto/Currency/Test/Model/Currency.php

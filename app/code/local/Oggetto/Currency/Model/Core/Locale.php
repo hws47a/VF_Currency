@@ -2,8 +2,6 @@
 /**
  * Oggetto extension for Magento
  *
- * Long description of this file (if any...)
- *
  * NOTICE OF LICENSE
  *
  * This source file is subject to the Open Software License (OSL 3.0)
@@ -20,7 +18,7 @@
  *
  * @category   Oggetto
  * @package    Oggetto_Currency
- * @copyright  Copyright (C) 2011 Oggetto Web ltd (http://oggettoweb.com/)
+ * @copyright  Copyright (C) 2012 Oggetto Web ltd (http://oggettoweb.com/)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 

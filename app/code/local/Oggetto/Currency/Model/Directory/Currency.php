@@ -2,8 +2,6 @@
 /**
  * Oggetto extension for Magento
  *
- * Long description of this file (if any...)
- *
  * NOTICE OF LICENSE
  *
  * This source file is subject to the Open Software License (OSL 3.0)
@@ -20,7 +18,7 @@
  *
  * @category   Oggetto
  * @package    Oggetto_Currency
- * @copyright  Copyright (C) 2011 Oggetto Web ltd (http://oggettoweb.com/)
+ * @copyright  Copyright (C) 2012 Oggetto Web ltd (http://oggettoweb.com/)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -46,6 +44,9 @@ class Oggetto_Currency_Model_Directory_Currency extends Mage_Directory_Model_Cur
      */
     public function format($price, $options = array(), $includeContainer = true, $addBrackets = false)
     {
+        if ($includeContainer) {
+            $options['format'] = '<span class="currency">¤</span><span class="value">#,##0.00</span>';
+        }
         return $this->formatPrecision($price, self::PRECISION, $options, $includeContainer, $addBrackets);
     }
 }
