@@ -2,7 +2,18 @@ This module rounds all prices on frontend to integer value or to another precisi
 For example, you have the price $304,53. After module installation, you will see on frontend $305.
 
 You can change rounding precision in one constant: Oggetto_Currency_Model_Directory_Currency::PRECISION
-Default is 0
+Default is 2
 
 Also format has been changed.
 Instead of $20 now u will see <span class="currency">$</span><span class="value">20</span>
+
+To separate integer and fractional value set Oggetto_Currency_Model_Directory_Currency::SEPARATE = true
+u will see
+<span class="currency">$</span>
+<span class="int">19</span>
+<span class="separator">.</span>
+<span class="cent"></span>
+
+To do not show separator set Oggetto_Currency_Model_Directory_Currency::SHOW_SEPARATOR = false
+
+To set custom separator set Oggetto_Currency_Model_Directory_Currency::CUSTOM_SEPARTOR
