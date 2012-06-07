@@ -7,7 +7,7 @@ Default is 2
 Also format has been changed.
 Instead of $19.99 now u will see 
 <span class="currency">$</span>
-<span class="value">20</span>
+<span class="value">19.99</span>
 
 To separate integer and fractional value set Oggetto_Currency_Model_Directory_Currency::SEPARATE = true
 u will see
