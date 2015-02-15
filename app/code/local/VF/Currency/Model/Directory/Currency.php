@@ -1,6 +1,6 @@
 <?php
 /**
- * Oggetto extension for Magento
+ * VF extension for Magento
  *
  * NOTICE OF LICENSE
  *
@@ -12,25 +12,25 @@
  * DISCLAIMER
  *
  * Do not edit or add to this file if you wish to upgrade
- * the Oggetto Currency module to newer versions in the future.
- * If you wish to customize the Oggetto Currency module for your needs
+ * the VF Currency module to newer versions in the future.
+ * If you wish to customize the VF Currency module for your needs
  * please refer to http://www.magentocommerce.com for more information.
  *
- * @category   Oggetto
- * @package    Oggetto_Currency
- * @copyright  Copyright (C) 2012 Oggetto Web ltd (http://oggettoweb.com/)
+ * @category   VF
+ * @package    VF_Currency
+ * @copyright  Copyright (C) 2015 Vladimir Fishchenko (http://fishchenko.com/)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 /**
  * Currency Model
  *
- * @category   Oggetto
- * @package    Oggetto_Currency
+ * @category   VF
+ * @package    VF_Currency
  * @subpackage Model
- * @author     Vladimir Fishchenko <fishchenko@oggettoweb.com>
+ * @author     Vladimir Fishchenko <vladimir@fishchenko.com>
  */
-class Oggetto_Currency_Model_Directory_Currency extends Mage_Directory_Model_Currency
+class VF_Currency_Model_Directory_Currency extends Mage_Directory_Model_Currency
 {
     const PRECISION = 2;
     const SEPARATE = false;
