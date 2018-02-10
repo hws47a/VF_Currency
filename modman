@@ -1,2 +1,2 @@
-app/code/local/VF/Currency app/code/local/VF/Currency
+app/code/community/VF/Currency app/code/community/VF/Currency
 app/etc/modules/VF_Currency.xml app/etc/modules/VF_Currency.xml
