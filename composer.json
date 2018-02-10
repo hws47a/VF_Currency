@@ -1,0 +1,25 @@
+{
+  "name": "hws47a/currency",
+  "description": "Magento extension to format currency on frontend",
+  "type": "magento-module",
+  "license": "MIT",
+  "homepage":"https://github.com/hws47a/VF_Currency",
+  "authors": [
+    {
+      "name": "Vladimir Fishchenko",
+      "email": "vladimir@fishchenko.com"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer":"*"
+  },
+  "require-dev": {
+    "ecomdev/ecomdev_phpunit": "*"
+  },
+  "repositories": {
+    "firegento": {
+      "type": "composer",
+      "url": "https://packages.firegento.com"
+    }
+  }
+}
